@@ -49,20 +49,20 @@ py -m venv venv
     
 ```bash
 
-C:\Users\User\Stealth> venv\Scripts\activate.bat
+C:\Users\User\algorithmic-trading-python> venv\Scripts\activate.bat
 
-(venv) C:\Users\User\Stealth> 
+(venv) C:\Users\User\algorithmic-trading-python> 
 
 ```
    
 - For Git Bash - bash
     
 ```bash
-User@User MINGW64 ~/Stealth (main)
+User@User MINGW64 ~/algorithmic-trading-python (main)
 $ source venv/Scripts/activate
 
 (venv) 
-User@User MINGW64 ~/Stealth (main)
+User@User MINGW64 ~/algorithmic-trading-python (main)
 $ 
 
 ``` 
@@ -73,9 +73,9 @@ $
 - For Command Prompt - cmd
 
 ```bash
-(venv) C:\Users\User\Stealth> venv\Scripts\deactivate.bat
+(venv) C:\Users\User\algorithmic-trading-python> venv\Scripts\deactivate.bat
 
-C:\Users\User\Stealth> 
+C:\Users\User\algorithmic-trading-python> 
 
 ```
    
@@ -83,10 +83,10 @@ C:\Users\User\Stealth>
     
 ```bash
 (venv) 
-User@User MINGW64 ~/Stealth (main)
+User@User MINGW64 ~/algorithmic-trading-python (main)
 $ deactivate
 
-User@User MINGW64 ~/Stealth (main)
+User@User MINGW64 ~/algorithmic-trading-python (main)
 $ 
 
 ``` 
@@ -99,11 +99,11 @@ pip install jupyter==1.0.0
 pip install jupyter-client==6.1.3
 pip install jupyter-console==6.1.0
 pip install jupyter-core==4.6.3
-pip install numpy==1.17.4
-pip install pandas==0.25.3
-pip install requests==2.22.0
-pip install scipy==1.5.2
-pip install XlsxWriter==1.2.2
+pip install numpy
+pip install pandas
+pip install requests
+pip install scipy
+pip install XlsxWriter
 
 ```
 
